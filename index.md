@@ -16,18 +16,14 @@
   <li><b>Results:</b> High FID scores, further training required</li>
 </ul>
 <div style="text-align:center;">
-  <figure>
+  <figure style="display: inline-block; text-align: center;">
     <img src="images/people_img.png?raw=true" alt="Generated images from the diffusion model" width="300"/>
-    <figcaption>Unconditionally generated images from the CelebA model pre-trained on LFWpeople,
-without EMA to the right and with EMA to the middle-right.</figcaption>
+    <figcaption>Unconditionally generated images from the CelebA model pre-trained on LFWPeople, without EMA to the right and with EMA to the middle-right.</figcaption>
   </figure>
   
-  <figure>
+  <figure style="display: inline-block; text-align: center;">
     <img src="images/DDPM_final_arch.png?raw=true" alt="U-Net architecture of diffusion model" width="300"/>
-    <figcaption>Simplified schematic of the model, where the different coloured areas showcase the
-encoder, middle block, and decoder. The black arrows represent the variable X’s path, the white
-arrows indicate the U-nets residual connections, and the dotted arrows show the time and class
-conditioning variables’ paths</figcaption>
+    <figcaption>Simplified schematic of the model, where the different coloured areas showcase the encoder, middle block, and decoder. The black arrows represent the variable X’s path, the white arrows indicate the U-net’s residual connections, and the dotted arrows show the time and class conditioning variables’ paths.</figcaption>
   </figure>
 </div>
 
@@ -43,10 +39,9 @@ conditioning variables’ paths</figcaption>
   <li><b>Results:</b> Enhanced mel-spectrogram quality with Whisper module</li>
 </ul>
 <div style="text-align:center;">
-  <figure>
+  <figure style="display: inline-block; text-align: center;">
     <img src="images/Lip_to_Speech_arch.png?raw=true" alt="Lip to Speech model architecture" width="300"/>
-    <figcaption>Illustration of the Lip-to-Speech model architecture, where the Visual Front-End and Conformer make up the
-encoder and the speech synthesizer is the decoder</figcaption>
+    <figcaption>Illustration of the Lip-to-Speech model architecture, where the Visual Front-End and Conformer make up the encoder and the speech synthesizer is the decoder.</figcaption>
   </figure>
 </div>
 
@@ -62,7 +57,7 @@ encoder and the speech synthesizer is the decoder</figcaption>
   <li><b>Results:</b> Effective clustering, limited fine movement capture</li>
 </ul>
 <div style="text-align:center;">
-  <figure>
+  <figure style="display: inline-block; text-align: center;">
     <img src="images/sign_language_rec.png?raw=true" alt="Sign language reconstruction visualization" width="300"/>
     <figcaption>Sign language reconstruction visualization.</figcaption>
   </figure>
