@@ -69,7 +69,7 @@
 
 # Quantum Support Vector Machine
 <p> 
-  For my Bachelour thesis paper, I compared the performance of quantum and classical kernels for Support Vector Machines (SVM) in binary classification tasks, . 
+  For my Bachelor thesis paper, I compared the performance of quantum and classical kernels for Support Vector Machines (SVM) in binary classification tasks, . 
   The quantum computations were simulted using the Qiskit library for their ease of use, and our results showcased a much stronger performance when utilizing a quantum kernel compared to the classical Radial Basis Function (RBF) kernel for our training data. 
 </p>
 
