@@ -71,7 +71,7 @@
 
 <p> 
   For my Bachelor thesis, I compared the performance of quantum and classical kernels for Support Vector Machines (SVM) in binary classification tasks. 
-  The quantum computations were simulated using the Qiskit library for their ease of use, and our results showcased a much stronger performance when utilizing a quantum kernel compared to the classical Radial Basis Function (RBF) kernel for our training data. 
+  Using the Qiskit library for all simulations of quantum computations, we found that the quantum kernel significantly outperformed the classical Radial Basis Function (RBF) kernel on our training data, suggesting that quantum kernels could be a valuable asset for machine learning. 
 </p>
 
 <ul> 
