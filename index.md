@@ -8,7 +8,7 @@
 
 ### Class-Conditioned Image Generation
 <p>
-  Implemented a Denoising Diffusion Probabilistic Models with a U-Net architecture using self- and cross-attention for class-conditional image generation. The model was tested on MNIST, CIFAR-10, and LFWPeople-CelebA datasets. While it achieved high FID scores, further training is needed to reach state-of-the-art performance.
+  Implemented a Denoising Diffusion Probabilistic Model with a U-Net architecture using self- and cross-attention for class-conditional image generation. The model was tested on MNIST, CIFAR-10, and LFWPeople-CelebA datasets. While it achieved high FID scores, further training is needed to reach state-of-the-art performance.
 </p>
 <ul>
   <li><b>Dataset:</b> MNIST, CIFAR-10, LFWPeople-CelebA</li>
