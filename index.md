@@ -2,7 +2,7 @@
 
 ---
 
-### Projects
+### Group Projects
 
 ---
 
@@ -49,7 +49,7 @@
 
 ### Sign Language Reconstruction
 <p>
-  Built a Vector Quantized Variational Auto-Encoder (VQ-VAE) to encode sign language gestures into latent vectors for reconstruction. The goal was to explore potential building blocks in sign language. While the model effectively clustered gestures and reconstructed them, it struggled to capture subtle finger movements.
+  Built a Vector Quantized Variational Auto-Encoder (VQ-VAE) to encode sign language gestures into latent vectors for reconstruction, with the goal of exploring the potential existence and usage of building blocks in sign language. While the model effectively clustered gestures and reconstructed them, it struggled to capture subtle finger movements.
 </p>
 <ul>
   <li><b>Dataset:</b> RWTH Phoenix dataset</li>
@@ -64,3 +64,18 @@
 </div>
 
 ---
+
+## Bachelor Thesis
+
+# Quantum Support Vector Machine
+<p> 
+  For my Bachelour thesis paper, I compared the performance of quantum and classical kernels for Support Vector Machines (SVM) in binary classification tasks, . 
+  The quantum computations were simulted using the Qiskit library for their ease of use, and our results showcased a much stronger performance when utilizing a quantum kernel compared to the classical Radial Basis Function kernel for our training data. 
+</p>
+<div style="text-align:center;">
+  <figure style="display: inline-block; text-align: center;">
+    <img src="images/QSVM.png?raw=true" alt="Quantum Support Vector Machine Flowchart" width="300"/>
+    <figcaption> A flowchart of my pipeline, divided into three modules: kernel training, SVM training and finally prediction.</figcaption>
+  </figure>
+</div>
+
