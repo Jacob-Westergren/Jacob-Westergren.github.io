@@ -58,8 +58,8 @@
 </ul>
 <div style="text-align:center;">
   <figure style="display: inline-block; text-align: center;">
-    <img src="images/sign_language_rec.png?raw=true" alt="Sign language reconstruction visualization" width="300"/>
-    <figcaption>Sign language reconstruction visualization.</figcaption>
+    <img src="images/sign_language_rec.gif?raw=true" alt="Sign language reconstruction visualization" width="300"/>
+    <figcaption>Sign language reconstruction visualization in motion.</figcaption>
   </figure>
 </div>
 
