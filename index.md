@@ -31,7 +31,7 @@
 
 ### Sign Language Reconstruction
 <p>
-  Built a Vector Quantized Variational Auto-Encoder (VQ-VAE) to encode sign language gestures into latent vectors for reconstruction, with the goal of exploring the potential existence and usage of building blocks in sign language. While the model effectively broke down gestures into building blocks that it could reconstruct from, it struggled to capture subtle finger movements, particularly when the hands were positioned in such a way that most keypoints were undetectable.
+  Built a Vector Quantized Variational Auto-Encoder (VQ-VAE) to encode sign language gestures into latent vectors for reconstruction, aiming to investigate the potential building blocks of sign language. While the model effectively broke down gestures into blocks, these components lacked the subtle finger movements of the original gestures, especially when the hands were positioned in such a way that the camera couldn't detect most keypoints. 
 </p>
 <ul>
   <li><b>Dataset:</b> RWTH Phoenix dataset</li>
