@@ -29,24 +29,6 @@
 
 ---
 
-### Lip-to-Speech
-<p>
-  Developed a model that generates speech from visual lip movements and text using convolutional networks and conformers. By incorporating a pre-trained Whisper module into the loss function, the quality of generated mel-spectrograms was significantly improved.
-</p>
-<ul>
-  <li><b>Dataset:</b> GRID dataset</li>
-  <li><b>Architecture:</b> Convolutional networks, conformers, Whisper model integration</li>
-  <li><b>Results:</b> Enhanced mel-spectrogram quality with Whisper module</li>
-</ul>
-<div style="text-align:center;">
-  <figure style="display: inline-block; text-align: center;">
-    <img src="images/Lip_to_Speech_arch.png?raw=true" alt="Lip to Speech model architecture" width="300"/>
-    <figcaption>Illustration of the Lip-to-Speech model architecture, where the Visual Front-End and Conformer make up the encoder and the speech synthesizer is the decoder.</figcaption>
-  </figure>
-</div>
-
----
-
 ### Sign Language Reconstruction
 <p>
   Built a Vector Quantized Variational Auto-Encoder (VQ-VAE) to encode sign language gestures into latent vectors for reconstruction, with the goal of exploring the potential existence and usage of building blocks in sign language. While the model effectively broke down gestures into building blocks that it could reconstruct from, it struggled to capture subtle finger movements, particularly when the hands were positioned in such a way that most keypoints were undetectable.
@@ -60,6 +42,24 @@
   <figure style="display: inline-block; text-align: center;">
     <img src="images/sign_language_rec_gif.gif?raw=true" alt="Sign language reconstruction visualization" width="300"/>
     <figcaption>Sign language reconstruction visualization in motion.</figcaption>
+  </figure>
+</div>
+
+---
+
+### Lip-to-Speech
+<p>
+  Developed a model that generates speech from visual lip movements and text using convolutional networks and conformers. By incorporating a pre-trained Whisper module into the loss function, the quality of generated mel-spectrograms was significantly improved.
+</p>
+<ul>
+  <li><b>Dataset:</b> GRID dataset</li>
+  <li><b>Architecture:</b> Convolutional networks, conformers, Whisper model integration</li>
+  <li><b>Results:</b> Enhanced mel-spectrogram quality with Whisper module</li>
+</ul>
+<div style="text-align:center;">
+  <figure style="display: inline-block; text-align: center;">
+    <img src="images/Lip_to_Speech_arch.png?raw=true" alt="Lip to Speech model architecture" width="300"/>
+    <figcaption>Illustration of the Lip-to-Speech model architecture, where the Visual Front-End and Conformer make up the encoder and the speech synthesizer is the decoder.</figcaption>
   </figure>
 </div>
 
