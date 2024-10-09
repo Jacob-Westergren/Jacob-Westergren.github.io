@@ -82,7 +82,7 @@
 
 <div style="text-align:center;">
   <figure style="display: inline-block; text-align: center;">
-    <img src="images/QSVM.png?raw=true" alt="Quantum Support Vector Machine Flowchart" width="400"/>
+    <img src="images/QSVM.png?raw=true" alt="Quantum Support Vector Machine Flowchart" width="400" style="max-height: 400px;"/>
     <figcaption>A flowchart of the used pipeline, divided into three modules: kernel training, SVM training, and finally prediction.</figcaption>
   </figure>
 </div>
