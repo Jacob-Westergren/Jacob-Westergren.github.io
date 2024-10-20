@@ -8,7 +8,7 @@
 
 ### Class-Conditioned Image Generation
 <p>
-  Developed a Denoising Diffusion Probabilistic Model with a U-Net architecture using self- and cross-attention for class-conditional image generation. The model was tested on MNIST, CIFAR-10, and LFWPeople-CelebA datasets. While it achieved high FID scores, further training is needed to reach state-of-the-art performance.
+  Developed a Denoising Diffusion Probabilistic Model with a U-Net architecture using self- and cross-attention for class-conditional image generation. The model was tested on MNIST, CIFAR-10, and LFWPeople-CelebA datasets to progressively test it in harder and harder tasks. While it created high quality images and achieved high FID scores, further training is needed to reach state-of-the-art performance.
 </p>
 <ul>
   <li><b>Dataset:</b> MNIST, CIFAR-10, LFWPeople-CelebA</li>
@@ -31,7 +31,7 @@
 
 ### Sign Language Reconstruction
 <p>
-  Built a Vector Quantized Variational Auto-Encoder (VQ-VAE) to encode sign language gestures into latent vectors for reconstruction, aiming to investigate the potential building blocks of sign language. While the model effectively broke down gestures into blocks, these components lacked the subtle finger movements of the original gestures, especially when the hands were positioned in such a way that the camera couldn't detect most keypoints. 
+  Built a Vector Quantized Variational Auto-Encoder (VQ-VAE) to encode sign language gestures into latent vectors for reconstruction, aiming to investigate the potential building blocks of sign language. The model effectively broke down gestures into discrete components, but it struggled to capture subtle finger movements, particularly when the hands were positioned in ways that hindered camera detection of keypoints. 
 </p>
 <ul>
   <li><b>Dataset:</b> RWTH Phoenix dataset</li>
@@ -49,7 +49,8 @@
 
 ### Speech Generation from Lip Movements
 <p>
-  Implemented a model that generates speech conditioned only on visual data, specifically the lip movements. The network was quite large in nature, as it consited of a front-end containing several convolutional layers to extract key features, conformers that extracted key information from these features, etc. Thus, we couldn't train the model for as many epochs as we would have liked due to our limited compute; However, it can still be easily seen that the model was steadily learning to predict the corresponding sound for the given visual data, and we believe that with more training the end result should be sound of high quaity. 
+  Implemented a model that generates speech conditioned only on visual data, specifically the lip movements. The architecture included a front-end with convolutional layers for feature extraction, conformers to process the extracted features, and Whisper for ASR; However, all of these modules resulted in a very large model that required much compute for training, forcing us to cut training short due to our limited compute power resulting in subpar final results. However, the model showed clear progress in learning to generate corresponding sounds from visual input and we believe that with additional training, the model should produce high-quality speech.
+  
 </p>
 <ul>
   <li><b>Dataset:</b> GRID dataset</li>
@@ -79,7 +80,7 @@
 # <a href="https://kth.diva-portal.org/smash/record.jsf?aq2=%5B%5B%5D%5D&c=3&af=%5B%5D&searchType=SIMPLE&sortOrder2=title_sort_asc&query=quantum+support+vector+machine&language=en&pid=diva2%3A1779801&aq=%5B%5B%5D%5D&sf=all&aqe=%5B%5D&sortOrder=author_sort_asc&onlyFullText=false&noOfRows=50&dswid=-2225" target="_blank">Quantum Support Vector Machine</a>
 
 <p> 
-  For my Bachelor thesis, I compared the performance of quantum and classical kernels for Support Vector Machines (SVM) in binary classification tasks. 
+  In my Bachelor thesis, I compared the performance of quantum and classical kernels for Support Vector Machines (SVM) in binary classification tasks. 
   Using the Qiskit library for all simulations of quantum computations, we found that the quantum kernel significantly outperformed the classical Radial Basis Function (RBF) kernel on our training data, suggesting that quantum kernels could be a valuable asset for machine learning. 
 </p>
 
