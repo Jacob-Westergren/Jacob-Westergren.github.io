@@ -88,11 +88,11 @@
 </div>
 
 ## Research Project
-As a research project at Östra High School, Alexander Hollmark and I classified exoplanet HAT-P-30 in accordance to Ph.D Tahir Yaqoobs classification system. This project was made in collaboration with the Astronomical Society Tycho Brahe and supervised by Simon Eriksson from House of Science. The experiment was a transit observation, meaning we analyzed the brighness drop when the exoplanet passes in between it's star and the telescope. Unfortunately, due to various weather conditions, we had to supplement our observation data with values from a previous experiment. From our experiment, we concluded that the exoplanet was a hot Jupiter or a super Jupiter, supporting previous research endeavours results. 
+At Östra High School, Alexander Hollmark and I classified the exoplanet HAT-P-30 using Ph.D. Tahir Yaqoob’s classification system. This project, done in collaboration with the Astronomical Society Tycho Brahe and advised by Simon Eriksson from the House of Science, involved a transit observation. We analyzed the brightness drop as the exoplanet passed between its star and our telescope. Due to weather conditions that arose during the observation, we supplemented our data with values from previous experiments. Our findings indicated that HAT-P-30 was a hot or super Jupiter, consistent with prior research.
 
-<div style="text-align:center;">
-  <figure style="display: inline-block; text-align: center;">
+<div style="text-align:center;"> 
+  <figure style="display: inline-block; text-align: center;"> 
     <img src="images/exoplanet_classification.png?raw=true" alt="Exoplanet Classification Experiment" width="400" style="max-height: 500px;"/>
-    <figcaption> Image taken during the experiment, where the left computer screen handles the controls of the remotely controlled telescope, the right monitor shows where the telescope is directed towards, and the laptop monitor was used to write down values from the taken images every five minutes.  </figcaption>
-  </figure>
+    <figcaption>Experiment setup: telescope control on the left screen, telescope direction on the right, and data logging on the laptop.</figcaption> 
+  </figure> 
 </div>
