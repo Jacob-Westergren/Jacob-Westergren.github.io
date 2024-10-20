@@ -63,7 +63,7 @@
       <figcaption>Illustration of the Lip-to-Speech model architecture, where the Visual Front-End and Conformer make up the encoder and the speech synthesizer is the decoder.</figcaption>
     </figure>
     <figure style="display: inline-block; text-align: center;">
-      <img src="images/Lip_to_Speech_mel.png?raw=true" alt="True vs Generated Mel-Spectrograms" width="400" height="500"/>
+      <img src="images/Lip_to_Speech_mel.png?raw=true" alt="True vs Generated Mel-Spectrograms" width="400" height="300"/>
       <figcaption>Comparison of the true and the generated mel-spectrogram.</figcaption>
     </figure>
   </div>
