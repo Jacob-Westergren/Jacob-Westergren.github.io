@@ -49,7 +49,7 @@
 
 ### Speech Generation from Lip Movements
 <p>
-  Implemented a model that generates speech from visual lip movements and text using convolutional networks and conformers. By incorporating a pre-trained Whisper module into the loss function, the quality of generated mel-spectrograms was significantly improved.
+  Implemented a model that generates speech conditioned only on visual data, specifically the lip movements. The network was quite large in nature, as it consited of a front-end containing several convolutional layers to extract key features, conformers that extracted key information from these features, etc. Thus, we couldn't train the model for as many epochs as we would have liked due to our limited compute; However, it can still be easily seen that the model was steadily learning to predict the corresponding sound for the given visual data, and we believe that with more training the end result should be sound of high quaity. 
 </p>
 <ul>
   <li><b>Dataset:</b> GRID dataset</li>
