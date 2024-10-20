@@ -99,6 +99,6 @@ At Östra High School, Alexander Hollmark and I classified the exoplanet HAT-P-3
 <div style="text-align:center;"> 
   <figure style="display: inline-block; text-align: center;"> 
     <img src="images/exoplanet_classification.png?raw=true" alt="Exoplanet Classification Experiment" width="400" style="max-height: 500px;"/>
-    <figcaption>Experiment setup: telescope control on the left screen, telescope direction on the right, and data logging on the laptop.</figcaption> 
+    <figcaption> Image taken of me during the transit observation showing the experiment setup: telescope control on the left screen, telescope direction on the right, and data logging on the laptop.</figcaption> 
   </figure> 
 </div>
