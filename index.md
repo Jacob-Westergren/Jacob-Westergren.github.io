@@ -8,7 +8,7 @@
 
 ### Class-Conditioned Image Generation
 <p>
-  Developed a Denoising Diffusion Probabilistic Model with a U-Net architecture using self- and cross-attention for class-conditional image generation. The model was tested on MNIST, CIFAR-10, and LFWPeople-CelebA datasets to progressively test it in harder and harder tasks. While it created high quality images and achieved high FID scores, further training is needed to reach state-of-the-art performance.
+Developed a Denoising Diffusion Probabilistic Model with a U-Net architecture utilizing self- and cross-attention for class-conditional image generation. The model was progressively tested on the MNIST, CIFAR-10, and LFWPeople-CelebA datasets, tackling increasingly challenging tasks. While it generated high-quality images and achieved impressive FID scores, further training is needed to reach state-of-the-art performance.
 </p>
 <ul>
   <li><b>Dataset:</b> MNIST, CIFAR-10, LFWPeople-CelebA</li>
@@ -49,7 +49,7 @@
 
 ### Speech Generation from Lip Movements
 <p>
-  Implemented a model that generates speech conditioned only on visual data, specifically the lip movements. The architecture included a front-end with convolutional layers for feature extraction, conformers to process the extracted features, and Whisper for ASR; However, all of these modules resulted in a very large model that required much compute for training, forcing us to cut training short due to our limited compute power resulting in subpar final results. However, the model showed clear progress in learning to generate corresponding sounds from visual input and we believe that with additional training, the model should produce high-quality speech.
+  Implemented a model to generate speech from visual data, focusing on lip movements. The architecture consisted of a front-end with convolutional layers for feature extraction, conformers to process these features, and Whisper for ASR. Due to the model's large size, we had to cut training short because of limited compute power, resulting in suboptimal performance. However, the model showed clear progress in generating corresponding sounds from visual input, and with further training, it is expected to produce high-quality speech.
   
 </p>
 <ul>
