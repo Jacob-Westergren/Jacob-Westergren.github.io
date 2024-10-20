@@ -16,16 +16,15 @@
   <li><b>Results:</b> High FID scores, further training required</li>
 </ul>
 <div style="text-align:center;">
-  <div style="display: flex; justify-content: center;">
-    <figure style="display: inline-block; text-align: center; margin-right: 20px;">
-      <img src="images/Lip_to_Speech_arch.png?raw=true" alt="Lip to Speech model architecture" width="400" style="max-height: 500px;"/>
-      <figcaption>Illustration of the Lip-to-Speech model architecture, where the Visual Front-End and Conformer make up the encoder and the speech synthesizer is the decoder.</figcaption>
-    </figure>
-    <figure style="display: inline-block; text-align: center;">
-      <img src="images/Lip_to_Speech_mel.png?raw=true" alt="True vs Generated Mel-Spectrograms" width="400" style="max-height: 500px;"/>
-      <figcaption>Comparison of the true mel-spectrogram (left) and the generated mel-spectrogram (right) after incorporating the Whisper module.</figcaption>
-    </figure>
-  </div>
+  <figure style="display: inline-block; text-align: center;">
+    <img src="images/people_img.png?raw=true" alt="Generated images from the diffusion model" width="400"/>
+    <figcaption>Unconditionally generated images from the CelebA model pre-trained on LFWPeople, without EMA to the right and with EMA to the middle-right.</figcaption>
+  </figure>
+  
+  <figure style="display: inline-block; text-align: center;">
+    <img src="images/DDPM_final_arch.png?raw=true" alt="U-Net architecture of diffusion model" width="400"/>
+    <figcaption>Simplified schematic of the model, where the different coloured areas showcase the encoder, middle block, and decoder. The black arrows represent the variable X’s path, the white arrows indicate the U-net’s residual connections, and the dotted arrows show the time and class conditioning variables’ paths.</figcaption>
+  </figure>
 </div>
 
 ---
@@ -63,9 +62,8 @@
       <img src="images/Lip_to_Speech_arch.png?raw=true" alt="Lip to Speech model architecture" width="400" style="max-height: 500px;"/>
       <figcaption>Illustration of the Lip-to-Speech model architecture, where the Visual Front-End and Conformer make up the encoder and the speech synthesizer is the decoder.</figcaption>
     </figure>
-
     <figure style="display: inline-block; text-align: center;">
-      <img src="images/Lip_to_speech_mel.png?raw=true" alt="True vs Generated Mel-Spectrograms" width="400" style="max-height: 500px;"/>
+      <img src="images/Lip_to_Speech_mel.png?raw=true" alt="True vs Generated Mel-Spectrograms" width="400" style="max-height: 500px;"/>
       <figcaption>Comparison of the true mel-spectrogram (left) and the generated mel-spectrogram (right) after incorporating the Whisper module.</figcaption>
     </figure>
   </div>
