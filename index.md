@@ -18,7 +18,7 @@ Developed a Denoising Diffusion Probabilistic Model with a U-Net architecture ut
 <div style="text-align:center;">
   <figure style="display: inline-block; text-align: center;">
     <img src="images/people_img.png?raw=true" alt="Generated images from the diffusion model" width="400"/>
-    <figcaption>Unconditionally generated images from the CelebA model pre-trained on LFWPeople from our model with Exponentially Moving Average during training.</figcaption>
+    <figcaption>Unconditionally generated images from the CelebA model pre-trained on LFWPeople, produced using Exponential Moving Average during training.</figcaption>
   </figure>
   
   <figure style="display: inline-block; text-align: center;">
