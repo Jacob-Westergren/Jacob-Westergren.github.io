@@ -57,17 +57,19 @@
   <li><b>Results:</b> Enhanced mel-spectrogram quality with Whisper module</li>
 </ul>
 <div style="text-align:center;">
-  <div style="display: flex; justify-content: center;">
-    <figure style="display: inline-block; text-align: center; margin-right: 20px;">
-      <img src="images/Lip_to_Speech_arch.png?raw=true" alt="Lip to Speech model architecture" width="400" style="max-height: 500px;"/>
-      <figcaption>Illustration of the Lip-to-Speech model architecture, where the Visual Front-End and Conformer make up the encoder and the speech synthesizer is the decoder.</figcaption>
-    </figure>
-    <figure style="display: inline-block; text-align: center;">
-      <img src="images/Lip_to_Speech_mel.png?raw=true" alt="True vs Generated Mel-Spectrograms" width="400" height="200"/>
-      <figcaption>Comparison of the true and the generated mel-spectrogram.</figcaption>
-    </figure>
-  </div>
+  <figure style="display: inline-block; text-align: center;">
+    <img src="images/Lip_to_Speech_arch.png?raw=true" alt="Lip to Speech model architecture" width="400" style="max-height: 500px;"/>
+    <figcaption>Illustration of the Lip-to-Speech model architecture, where the Visual Front-End and Conformer make up the encoder and the speech synthesizer is the decoder.</figcaption>
+  </figure>
 </div>
+
+<div style="text-align:center;">
+  <figure style="display: inline-block; text-align: center;">
+    <img src="images/Lip_to_Speech_mel.png?raw=true" alt="True vs Generated Mel-Spectrograms" width="400" height="800"/>
+    <figcaption>Comparison of the true and the generated mel-spectrogram.</figcaption>
+  </figure>
+</div>
+
 
 
 ---
