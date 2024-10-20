@@ -58,7 +58,7 @@
 </ul>
 <div style="text-align:center;">
   <figure style="display: inline-block; text-align: center;">
-    <img src="images/Lip_to_Speech_arch.png?raw=true" alt="Lip to Speech model architecture" width="400" style="max-height: 500px;"/>
+    <img src="images/Lip_to_Speech_arch.png?raw=true" alt="Lip to Speech model architecture" width="400" style="max-height: 400px;"/>
     <figcaption>Illustration of the Lip-to-Speech model architecture, where the Visual Front-End and Conformer make up the encoder and the speech synthesizer is the decoder.</figcaption>
   </figure>
 </div>
