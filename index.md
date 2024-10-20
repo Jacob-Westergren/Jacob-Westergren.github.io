@@ -97,8 +97,10 @@ Developed a Denoising Diffusion Probabilistic Model with a U-Net architecture ut
   </figure>
 </div>
 
-## Research Project
-At Östra High School, Alexander Hollmark and I classified the exoplanet HAT-P-30 using Ph.D. Tahir Yaqoob’s classification system. This project, done in collaboration with the Astronomical Society Tycho Brahe and advised by Simon Eriksson from the House of Science, involved a transit observation. We analyzed the brightness drop as the exoplanet passed between its star and our telescope. Due to weather conditions that arose during the observation, we supplemented our data with values from previous experiments. Our findings indicated that HAT-P-30 was a hot or super Jupiter, consistent with prior research.
+## Research Projects
+
+### Classifying Exoplanet HAT-P-30b
+At Östra High School, Alexander Hollmark and I classified the exoplanet HAT-P-30b using Ph.D. Tahir Yaqoob’s classification system. This project, done in collaboration with the Astronomical Society Tycho Brahe and advised by Simon Eriksson from the House of Science, involved a transit observation. We analyzed the brightness drop as the exoplanet HAT-P-30b passed between its host star, HAT-P-30, and our telescope. Due to weather conditions that arose during the observation, we supplemented our data with values from previous experiments. Our findings indicated that HAT-P-30b was a hot or super Jupiter, consistent with prior research.
 
 <div style="text-align:center;"> 
   <figure style="display: inline-block; text-align: center;"> 
