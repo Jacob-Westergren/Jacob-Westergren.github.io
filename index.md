@@ -65,7 +65,7 @@
 
 <div style="text-align:center;">
   <figure style="display: inline-block; text-align: center;">
-    <img src="images/Lip_to_Speech_mel.png?raw=true" alt="True vs Generated Mel-Spectrograms" width="400" height="800"/>
+    <img src="images/Lip_to_Speech_mel.png?raw=true" alt="True vs Generated Mel-Spectrograms" width="400" style="max-height:500px"/>
     <figcaption>Comparison of the true and the generated mel-spectrogram.</figcaption>
   </figure>
 </div>
