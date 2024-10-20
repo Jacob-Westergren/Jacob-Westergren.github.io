@@ -86,3 +86,13 @@
     <figcaption>A flowchart of the used pipeline, divided into three modules: kernel training, SVM training, and finally prediction.</figcaption>
   </figure>
 </div>
+
+## Research Project
+As a research project at Östra High School, Alexander Hollmark and I classified exoplanet HAT-P-30 in accordance to Ph.D Tahir Yaqoobs classification system. This project was made in collaboration with the Astronomical Society Tycho Brahe and supervised by Simon Eriksson from House of Science. The experiment was a transit observation, meaning we analyzed the brighness drop when the exoplanet passes in between it's star and the telescope. Unfortunately, due to various weather conditions, we had to supplement our observation data with values from a previous experiment. From our experiment, we concluded that the exoplanet was a hot Jupiter or a super Jupiter, supporting previous research endeavours results. 
+
+<div style="text-align:center;">
+  <figure style="display: inline-block; text-align: center;">
+    <img src="images/exoplanet_classification.png?raw=true" alt="Exoplanet Classification Experiment" width="400" style="max-height: 500px;"/>
+    <figcaption> Image taken during the experiment, where the left computer screen handles the controls of the remotely controlled telescope, the right monitor shows where the telescope is directed towards, and the laptop monitor was used to write down values from the taken images every five minutes.  </figcaption>
+  </figure>
+</div>
